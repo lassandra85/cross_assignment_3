@@ -1,14 +1,14 @@
 import { View, Text, Image, StyleSheet } from "react-native";
-import CustomButton from "../components/CustomButton";
+import CustomButton from "../components/CustomButton/CustomButton";
 import { COLORS, SIZES } from "../constants/theme";
 
 
 export default function WelcomeScreen() {
 return (
-<View style={styles.container}>
-<Image
-source={require("../assets/images/salyut.jpg")}
-style={styles.bg}
+    <View style={styles.container}>
+    <Image
+        source={require("../assets/images/salyut.jpg")}
+        style={styles.bg}
 />
 
 
@@ -25,7 +25,10 @@ style={styles.bg}
 
 
 const styles = StyleSheet.create({
-container: { flex: 1 },
+    container: {
+        flex: 1,
+        alignItems: 'center',
+    },
 bg: {
 width: "100%",
 height: "70%",
@@ -35,8 +38,8 @@ padding: SIZES.padding,
 paddingTop: 20,
 },
 title: {
-fontSize: 24,
-fontWeight: "700",
+fontSize: 30,
+fontWeight: "800",
 marginBottom: 20,
 color: COLORS.textDark,
 },

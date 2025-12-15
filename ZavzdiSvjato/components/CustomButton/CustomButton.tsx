@@ -1,6 +1,6 @@
 import { TouchableOpacity, Text, StyleSheet } from "react-native";
 import React from "react";
-import { COLORS, SIZES } from "../constants/theme";
+import { COLORS, SIZES } from "../../constants/theme";
 
 
 type Props = {
@@ -23,12 +23,13 @@ style={[styles.btn, type === "secondary" && styles.secondary]}
 
 
 const styles = StyleSheet.create({
-btn: {
-backgroundColor: COLORS.primary,
-padding: 14,
-borderRadius: SIZES.radius,
-alignItems: "center",
-marginVertical: 8,
+    btn: {
+        marginTop: 150,
+    backgroundColor: COLORS.primary,
+    padding: 14,
+    borderRadius: SIZES.radius,
+    alignItems: "center",
+    marginVertical: 8,
 },
 secondary: {
 backgroundColor: COLORS.secondary,

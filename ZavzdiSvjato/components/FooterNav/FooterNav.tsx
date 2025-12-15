@@ -1,6 +1,6 @@
 import { View, StyleSheet } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { COLORS } from "../constants/theme";
+import { COLORS } from "../../constants/theme";
 
 
 type Props = {
@@ -32,12 +32,13 @@ color={active === "user" ? COLORS.primary : COLORS.gray}
 
 
 const styles = StyleSheet.create({
-container: {
-flexDirection: "row",
-justifyContent: "space-around",
-paddingVertical: 12,
-backgroundColor: "white",
-borderTopWidth: 1,
-borderColor: COLORS.gray,
-},
+    container: {
+        marginTop: 150,
+        flexDirection: "row",
+        justifyContent: "space-around",
+        paddingVertical: 12,
+        backgroundColor: "white",
+        borderTopWidth: 1,
+        borderColor: COLORS.gray,
+    },
 });

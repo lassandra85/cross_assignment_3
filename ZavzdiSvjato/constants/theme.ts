@@ -9,6 +9,7 @@ bg: "#f8f8f8",
 
 
 export const SIZES = {
-padding: 16,
-radius: 12,
+    padding: 8,
+    radius: 12,
+    gap: 20,
 };
