@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Platform } from 'react-native';
 import { COLORS } from '../../constants/theme';
 
 type HeaderProps = {
@@ -17,13 +17,17 @@ export default function Header ({ title1,title2 }: HeaderProps) {
 
 
 const styles = StyleSheet.create({
-    container: {
-        marginTop: 50,
+  container: {
+    marginTop: 50,
     padding: 16,
     alignItems: 'center',
   },
   title: {
-    fontSize: 24,
+    fontSize: Platform.select({
+      ios: 24,
+      android: 22,
+      default: 23,
+    }),
     fontWeight: '600',
     color: COLORS.textDark,
   },
