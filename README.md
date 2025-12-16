@@ -1,26 +1,26 @@
 ## Category Card
-![CategoryCard](screenshots/CategoryCard.jpeg)
+![CategoryCard](ZavzdiSvjato/screenshots/CategoryCard.jpeg)
 
 
 ## Custom Button
-![CustomButton](screenshots/CustomButton.jpeg)
+![CustomButton](ZavzdiSvjato/screenshots/CustomButton.jpeg)
 
 
 ## Footer Navigation
-![FooterNav](screenshots/FooterNav.jpeg)
+![FooterNav](ZavzdiSvjato/screenshots/FooterNav.jpeg)
 
 
 ## Header 
-![Header](screenshots/Header.jpeg)
+![Header](ZavzdiSvjato/screenshots/Header.jpeg)
 
 
 ## Home list
-![HomeList](screenshots/HomeList.jpeg)
+![HomeList](ZavzdiSvjato/screenshots/HomeList.jpeg)
 
 
 ## Option List
-![OptionList](screenshots/OptionList.jpeg)
+![OptionList](ZavzdiSvjato/screenshots/OptionList.jpeg)
 
 
 ## Welcome Screen
-![WelcomeScreen](screenshots/WelcomeScreen.jpeg)
+![WelcomeScreen](ZavzdiSvjato/screenshots/WelcomeScreen.jpeg)
